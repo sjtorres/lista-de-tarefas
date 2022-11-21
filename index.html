@@ -1,30 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
-    <link rel="stylesheet" href="css/styles.css" />
-    
-    <title>Lista de Tarefas</title>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    
-<!-- container principal ----------------->
-  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <title>Lista de Tarefas</title>
+</head>
+
+<body>
+
+  <!-- container principal ----------------->
+  <section class="container">
+
     <!-- argolas do todo list --------------->
-        
+    <div class="imgs">
+      <img src="img/argola.png" alt="argolas" class="img1">
+      <img src="img/argola.png" alt="argolas" class="img2">
+      <img src="img/argola.png" alt="argolas" class="img3">
+      <img src="img/argola.png" alt="argolas" class="img4">
+      <img src="img/argola.png" alt="argolas" class="img5">
+      <img src="img/argola.png" alt="argolas" class="img6">
+      <img src="img/argola.png" alt="argolas" class="img7">
+      <img src="img/argola.png" alt="argolas" class="img8">
+    </div>
 
-          <!-- foto principal ------------->
+    <h1>Lista de tarefa</h1>
 
-          
+    <div class="linha"></div>
 
-                 <!-- form pra adicionar ---------->
-          
+    <div class="to-dentro">
 
-    <script src="js/script.js"></script>
-  </body>
+      <!-- foto principal ------------->
+      <div class="img"><img src="img/foto-perfil.png" alt="foto-perfil"></div>
+
+      <ul class="ul ulContainer">
+        <li class="li">
+          <span class="linha-li">Tarefa da semana: Segunda a sexta</span>
+          <i class="bx bx-trash lixeira"></i>
+        </li>
+      </ul>
+
+      <!-- form pra adicionar ---------->
+      <form class="input">
+        <input type="text" class="digitar" name="add" placeholder="Digite aqui sua tarefa..." />
+      </form>
+
+    </div>
+
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+
 </html>
